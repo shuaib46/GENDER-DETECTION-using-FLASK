@@ -4,7 +4,17 @@ Detect face in a image and to predict the gender of the person using a deep lear
 ## Algorithm Used
 Deep Learning (Unsupervised)
 ## Python packages 
-![image](https://user-images.githubusercontent.com/80459102/193560435-ed3ff6d6-d78e-4c78-8f99-73eb95759568.png)
+```python
+import glob
+import shutil
+import uuid
+import deepface.DeepFace
+from flask import Flask, json, request, jsonify
+import os
+import urllib.request
+from deepface import DeepFace
+from werkzeug.utils import secure_filename
+```
 ## How to install and run the package
 ### step 1: Install latest version of Python
 Recommended version 3.10.0 or above.
@@ -28,14 +38,4 @@ Recommended version 3.10.0 or above.
 ![image](https://user-images.githubusercontent.com/80459102/193560703-2b639b5b-9c00-44b8-8bda-925e5e7f3259.png)
 ## Credits
 Sincere Thanks to [Sefik Ilkin Serengil](https://github.com/serengil) for deepface package.
-```python
-import glob
-import shutil
-import uuid
-import deepface.DeepFace
-from flask import Flask, json, request, jsonify
-import os
-import urllib.request
-from deepface import DeepFace
-from werkzeug.utils import secure_filename
-```
+
