@@ -20,7 +20,7 @@ from werkzeug.utils import secure_filename
 Recommended version 3.10.0 or above.
 ### Step 2: Make sure pip is linked to Python(pip -V will display the info)
 ### Step 3: Install PyCharmIDE
-### Step 4: Install the deepfacepackage
+### Step 4: Install the deepface package
 ![image](https://user-images.githubusercontent.com/80459102/193560518-efc317e4-7237-4c0b-b102-f74a5187aef9.png)
 ### Step 5: Similarly install other packages.
 ## Working
