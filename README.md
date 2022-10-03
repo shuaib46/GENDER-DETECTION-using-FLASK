@@ -32,7 +32,6 @@ Sincere Thanks to [Sefik Ilkin Serengil](https://github.com/serengil) for deepfa
 import glob
 import shutil
 import uuid
-
 import deepface.DeepFace
 from flask import Flask, json, request, jsonify
 import os
